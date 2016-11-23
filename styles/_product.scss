@@ -1,0 +1,60 @@
+.product {
+    margin-bottom: $padding-base * 3;
+
+    &__heading {
+
+    }
+
+    &__wrapper {
+        @media only screen and (min-width: 64rem) {
+            display: flex;
+        }
+    }
+
+    &__video {
+
+        padding-bottom: 56.25%;
+        position: relative;
+        
+        @media only screen and (min-width: 64rem) {
+            order: 2;
+            flex: 0 0 33%;
+            padding-bottom: 19.25%;
+        }
+
+        iframe {
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__copy {
+        @media only screen and (min-width: 64rem) {
+            flex: 1 1 auto;
+            margin-right: 3rem;
+            order: 1;
+        }
+    }
+
+    &__gauranteed-issue {
+        font-style: italic;
+    }
+
+    &__learn-more {
+        background-color: #265B80;
+        border-radius: 0.3rem;
+        color: #fff;
+        display: inline-block;
+        text-decoration: none;
+        padding: 1rem 3rem;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #366B90;
+        }
+    }
+}

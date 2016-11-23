@@ -1,0 +1,12 @@
+.benefits {
+    @include padV;
+
+    &__heading {
+        font-size: 2rem;
+        font-weight: normal;
+        margin-bottom: $padding-base * 3;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,52 @@
+$padding-base: 1rem; 
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+:first-child {
+    margin-top: 0;
+}
+
+:last-child {
+    margin-bottom: 0;
+}
+
+html {
+    margin: 0;
+    padding:0;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.4em;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.1em;
+    color: #265b80;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: $padding-base;
+    text-transform: uppercase;
+
+    @media only screen and (min-width: 76.8rem) {
+        font-size: 4rem;
+    }
+}

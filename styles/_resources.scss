@@ -1,0 +1,47 @@
+.resources {
+    padding-bottom: 2em;
+    order: 2;
+    flex: 1 1 auto;
+    width: 45%;
+    margin-left: 5em;
+
+    &__heading {
+
+    }
+
+    &__list {
+        display: flex;
+        
+
+    }
+
+    &__item {
+        list-style-type: none;
+        flex: 1 1 auto;
+        margin-left: -2em;
+        margin-right: 2em;
+
+    }
+
+    &__link {
+        background-color: #265B80;
+        border-radius: 0.3rem;
+        color: #fff;
+        display: inline-block;
+        text-decoration: none;
+        padding: 1rem 3rem;
+        transition: background-color 0.3s;
+        margin-left: -.5em;
+        float: left;
+        margin-right: 1em;
+        width: 200px;
+        text-align: center;
+
+
+        &:hover {
+            background-color: #366B90;
+        }
+    }
+
+
+}
